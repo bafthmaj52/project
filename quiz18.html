@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+       <meta charset="UTF-8">
+        <title>مسابقات قرآنية</title>
+        <link href ="righttest.css" rel="stylesheet">
+
+    </head>
+    <body>
+    <center >
+    <p id="title">مسابقات قرآنية</p>
+
+
+
+      <br>
+      <p>  :السؤال الثامن عشر </p>
+      <p>في أي سورة وردت كلمة العرش ؟ </p>
+        <script type="text/javascript">
+            document.write("<input type='text' name='username' id='username'>");
+            document.write("<br />");
+
+            document.write("<br />");
+
+            function correct(){
+                if(document.getElementById('username').value ==="التكوير" )
+                {
+                    alert("الإجابة صحيحة")
+                    location="quiz19.html";
+
+                }
+              else if  (document.getElementById('username').value ==="البروج")
+                 {
+                    alert("   الاجابة صحيحة    ")
+
+                      location="quiz19.html";
+                }
+
+                else {
+
+                    alert("الإجابة خاطئة..حاول ثانية")
+                }
+             }
+             Submit = document.write("<input type='submit' value='أدخل الأجابة' onClick='correct()'>");
+    </script>
+  </center>
+    </body>
+</html>

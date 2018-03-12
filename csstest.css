@@ -1,0 +1,111 @@
+/* flat color css */
+
+.messagebox {
+position:fixed;
+background-color:#3498db;
+color:#ffffff;
+left:30%;
+top:100;
+z-index:1;
+/*border:3px solid #ffffff;*/
+font-family:'Voltaire', sans-serif;
+font-size:24px;
+height:650px;
+width:600px;
+text-align:center;
+border-radius:15px;
+padding-top:20px;
+
+margin-top: 0.2px;
+   margin-right:auto;
+   margin-left: auto;
+
+
+
+
+
+}
+
+
+.icon{
+position:absolute;
+width:450px;
+height:250px;
+background:white;
+border-radius:25px;
+margin-top: 50px;
+   margin-bottom: 80px;
+   margin-right: 150px;
+   margin-left: 80px ;
+
+
+
+
+}
+.icon2{
+
+width:580px;
+height:70px;
+background:#2980b9;
+border-radius:1px;
+margin-right: ;
+margin-left: 10px ;
+margin-top: 10px;
+
+
+
+
+}
+
+#quiz {
+font-size:150%;
+
+
+
+
+}
+
+
+#quiz2 {
+font-size:150%;
+color : black ;
+
+
+
+}
+
+
+.script{
+
+
+
+
+}
+
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+
+
+
+/*   #ecf0f1 wight

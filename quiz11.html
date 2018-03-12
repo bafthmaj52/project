@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>مسابقات قرآنية</title>
+        <link href ="righttest.css" rel="stylesheet">
+
+    </head>
+    <body>
+    <center >
+
+      <p id="title">مسابقات قرآنية</p>
+      <br>
+      <p>:السؤال الحادي عشر</p>
+      <p>في أي سورة وردت كلمة الكفار ؟ </p>
+        <script type="text/javascript">
+            document.write("<input type='text' name='username' id='username'>");
+            document.write("<br />");
+
+            document.write("<br />");
+
+            function correct(){
+                if(document.getElementById('username').value ==="المطففين" )
+                {
+                    alert("الإجابة صحيحة")
+                    location="quiz12.html";
+
+                }
+                else{
+                    alert("الإجابة خاطئة..حاول ثانية")
+                }
+             }
+             Submit = document.write("<input type='submit' value='أدخل الأجابة' onClick='correct()'>");
+    </script>
+  </center>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>مسابقات قرآنية</title>
+          <link href ="csstest.css" rel="stylesheet">
+
+    </head>
+    <body>
+    <center >
+       <div class="messagebox">
+
+      <br>
+      <p>:السؤال الأول</p>
+      <p>في أي سورة وردت كلمة الحطب ؟</p>
+        <script type="text/javascript">
+            document.write("<input type='text' name='username' id='username'>");
+            document.write("<br />");
+
+            document.write("<br />");
+
+            function correct(){
+                if(document.getElementById('username').value ==="المسد" )
+                {
+                    alert("الإجابة صحيحة")
+                    location="quiz2.html";
+
+                }
+                else{
+                    alert("الإجابة خاطئة..حاول ثانية")
+                }
+             }
+             Submit = document.write("<input type='submit' value='أدخل الأجابة' onClick='correct()'>");
+    </script>
+  </center>
+    </body>
+</html>

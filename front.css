@@ -1,0 +1,16 @@
+img{
+
+position:fixed;
+  height:700px;
+  width:700px;
+  margin-top: 0.2px;
+     margin-right:auto;
+     margin-left: auto;
+     left:30%;
+     top:100;
+     padding-top:20px;
+      border-radius:20px;
+z-index:1;
+
+
+}
